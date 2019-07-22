@@ -3,6 +3,39 @@
     .navbar-default {
         padding: 20px 0;
     }
+
+    .navbar-default .navbar-toggle {
+        display: none;
+    }
+
+    #prof{
+        display: none;
+    }
+
+    .feature-col-left {
+        left: 0px;
+    }
+
+    .footer-bottom-content{
+        display: none;
+    }
+
+    #explore{
+        margin-top:100px;
+    }
+
+    .arrow-down-btn a {
+        margin: 50px 191px;
+    }
+
+    #row1{
+        display: none;
+    }
+
+    .content-col-inner {
+        margin-left: 0px;
+    }
+
     .affix {
         padding: 10px 0;
     }

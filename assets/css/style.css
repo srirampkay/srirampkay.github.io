@@ -31,7 +31,7 @@ Fonts
 
 @font-face {
     font-family:'MyWebFont';
-    src:url('assets/fonts/Roboto-Regular.ttf'); 
+    src:url('assets/fonts/Lato-Regular.ttf'); 
   }
 
 
@@ -133,7 +133,7 @@ img {
 }
 
 p {
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1.2px;
 }
 
@@ -692,14 +692,15 @@ Hero
 }
 
 #explore{
-    position: relative;
-    margin-top: 275px;
-    
+    position: fixed;
+    bottom: 105px;
+    width: 100%;
     text-align: center;
 }
 
-#about {
-    
+.view-more{
+    width: 60%;
+    text-align: center;
 }
 
 .content-col-inner {

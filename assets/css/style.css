@@ -18,7 +18,7 @@ Table of content
 
 /*----------------------------------------
 Fonts
------------------------------------------*/
+-----------------------------------------
 
 @font-face {
     font-family: 'Hk_Groteskregular';
@@ -27,7 +27,12 @@ Fonts
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
+
+@font-face {
+    font-family:'MyWebFont';
+    src:url('assets/fonts/Roboto-Regular.ttf'); 
+  }
 
 
 /*----------------------------------------
@@ -35,7 +40,7 @@ General Styles
 ----------------------------------------*/
 
 body {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'MyWebFont', sans-serif;
     font-size: 15px;
     line-height: 26px;
     overflow-x: hidden;
@@ -373,7 +378,7 @@ Preloader page
     width: 56px;
     height: 56px;
     border: 8px solid rgba(171, 130, 253, 0.25);
-    border-top-color: #8665fe;
+    border-top-color: #FFB600;
     border-radius: 50%;
     position: relative;
     animation: rotate 1s linear infinite;
@@ -419,6 +424,8 @@ Navigation
     padding-left: 0px !important;
 }
 
+
+
 #pictured{
     width: 600px;
     
@@ -439,6 +446,10 @@ Navigation
 
 .navbar-right {
     margin-right: 0;
+}
+
+.work-experience{
+    margin-top:40px;
 }
 
 .titled{
@@ -622,7 +633,7 @@ Hero
 ----------------------------------------*/
 
 .section-hero {
-    height: 100vh;
+    height: 90vh;
     padding-top: 80px;
     position: relative;
     padding-bottom: 80px;
@@ -635,7 +646,7 @@ Hero
 }
 
 .hero-text {
-    margin-top: 16%;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -645,7 +656,7 @@ Hero
 
 .section-hero-content .hero-text h1 {
     font-size: 40px;
-    margin: 0 0 8px;
+    margin: 0 auto;
     font-weight: 300;
     color: #fff;
     line-height: 70px;
@@ -663,13 +674,11 @@ Hero
     color: #fff;
     font-size: 24px;
     line-height: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    
 }
 
 .arrow-down-btn a {
     font-size: 35px;
-    margin:50px 580px;
     
     color: #fff;
 }
@@ -683,15 +692,22 @@ Hero
 }
 
 #explore{
-    margin-top: 350px;
+    position: relative;
+    margin-top: 275px;
+    
+    text-align: center;
+}
+
+#about {
+    
 }
 
 .content-col-inner {
     position: relative;
     
     width: 100%;
-    max-width: 1200px;
-    margin-left: 100px;
+    
+    
 }
 
 .content-col-image {

@@ -22,11 +22,13 @@
 
     #explore{
         margin-top:100px;
+        position: relative;
+        margin-top: 275px;
+        text-align: center;
     }
 
-    .arrow-down-btn a {
-        margin: 50px 191px;
-    }
+  
+
 
     #row1{
         display: none;

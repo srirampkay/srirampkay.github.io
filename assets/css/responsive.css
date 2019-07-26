@@ -16,6 +16,10 @@
         left: 0px;
     }
 
+    #work-box{
+        margin-bottom: 15%;
+    }
+
     .footer-bottom-content{
         display: none;
     }
@@ -27,8 +31,13 @@
         text-align: center;
     }
 
+    .work-experience{
+        display: none;
+    }
   
-
+    #features-app{
+        display: none;
+    }
 
     #row1{
         display: none;

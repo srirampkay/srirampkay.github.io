@@ -1,4 +1,4 @@
 Authtype Basic
 AuthName "Password required"
-AuthUserFile /pobyt.html
+AuthUserFile https://srirampk.com/.htmypassword
 require valid-user

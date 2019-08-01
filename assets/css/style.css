@@ -132,6 +132,15 @@ img {
     height: auto;
 }
 
+#prof{
+    max-width: 95%;
+}
+
+#explore1{
+    position: relative;
+    bottom: 10px;
+    background-size: contain;
+}
 
 
 p {

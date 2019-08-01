@@ -205,9 +205,9 @@
 
     <!--End Hero Section-->
 
-
+    
     <!--About-->
-    <section id="about" class="section-about">
+    <section id="about" class="section-about" >
 
         <!--container-->
 
@@ -219,10 +219,10 @@
 
                 
 
-                <div class="pd-tp-50 clearfix ">
+                <div class="pd-tp-50 clearfix " >
                 
 
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box" >
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box"  data-toggle="modal" data-target="#login-modal" >
                         <div class="icon-block " id="work-img" data-toggle="modal" data-target="#appletile">
                                 
                                 <img id="imgs" src="assets/images/groups.png">
@@ -233,7 +233,7 @@
                             <p class="prodesc">Shaping up Apple's internal tools across iOS, macOS and web platforms</p>
                             
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box" >
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box"  data-toggle="modal" data-target="#login-modal">
                         <z href="#">
                         <div class="icon-block "  id="work-img">
 
@@ -247,7 +247,7 @@
                         </z>
                     </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box"  data-toggle="modal" data-target="#login-modal">
 
                         <div class="icon-block "  id="work-img">
 
@@ -261,7 +261,7 @@
                 </div>
                 <div class="pd-tp-30 clearfix ">
                     
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box" >
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box"  data-toggle="modal" data-target="#login-modal">
                         <z href="#">
                         <div class="icon-block "  id="work-img">
 
@@ -269,13 +269,29 @@
                             
 
                         </div>
-                        <h3 class="protitle">Mercedes Benz Design Challenge</h3>
-                            <p class="prodesc">A design exercise during my UX Designer interview at Mercedes Benz.
+                        <h3 class="protitle">Mercedes Benz Design</h3>
+                            <p class="prodesc">A design exercise by Mercedes Benz - Future Transporation.
+                            </p>
+                        </z>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp " id="work-box"  data-toggle="modal" data-target="#login-modal">
+                        <z href="#">
+                        <div class="icon-block "  id="work-img">
+
+                                <img id="imgs" src="assets/images/group5.svg">
+                            
+
+                        </div>
+                        <h3 class="protitle">Family Tree</h3>
+                            <p class="prodesc">Create a genealogical tree structure of your family and its generations.
                             </p>
                         </z>
                     </div>
 
                     </div>
+
+                    
 
                 </div>
 
@@ -324,7 +340,7 @@
 
 
 
-
+  
         
 
     </section>
@@ -376,9 +392,42 @@
 
     <!--Featrues app-->
 
-    
+ 
+
 
     <!--Featrues app-->
+
+
+    <div class="modal fade login-modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Thanks for stopping by!</h3>
+                    <span>Password required to continue</span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body clearfix">
+                    <form class="form " action=" " method=" ">
+
+                        
+
+                        <div class="form-group ">
+
+                            <input type="password" name="" class="form-control" placeholder="Password ">
+
+                            <i class="icon_lock_alt"></i>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-color ">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!--Footer -->
@@ -465,7 +514,7 @@
                                             </li>
 
                                             <li>
-                                                <a href=" ">Work</a>
+                                                <a href="#about" class="section-scroll">Work</a>
                                             </li>
 
                                             
@@ -515,7 +564,7 @@
                             <!-- COPYRIGHT TEXT -->
 
                             <div class="copyright ">
-                                <p>Last updated July 25, 2019</p>
+                                <p>Last updated August 1, 2019</p>
                             </div>
                             <!-- COPYRIGHT TEXT -->
 

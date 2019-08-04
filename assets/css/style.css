@@ -44,7 +44,7 @@ body {
     font-size: 15px;
     line-height: 26px;
     overflow-x: hidden;
-    color: #637282;
+    color: #181b3a;
     letter-spacing: 1.2px;
 }
 
@@ -646,7 +646,7 @@ Hero
 ----------------------------------------*/
 
 .section-hero {
-    height: 90vh;
+    height: 100vh;
     padding-top: 80px;
     position: relative;
     padding-bottom: 80px;
@@ -659,7 +659,7 @@ Hero
 }
 
 .hero-text {
-    margin-top: 10%;
+    margin-top: 16%;
     text-align: center;
 }
 
@@ -679,19 +679,25 @@ Hero
     float: right;
 }
 
+.coming-soon{
+    font-size: 20px;
+    color: #637282;
+}
+
 .colored-text{
     color: #FDC029; 
 }
 
 .hero-text p {
     color: #fff;
-    font-size: 24px;
-    line-height: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 20px;
     
 }
 
 .arrow-down-btn a {
-    font-size: 35px;
+    font-size: 80px;
     
     color: #fff;
 }
@@ -706,7 +712,7 @@ Hero
 
 #explore{
     
-    margin-top: 30%;
+    margin-top: 25%;
     text-align: center;
 }
 
@@ -834,10 +840,10 @@ About
 .text-content p,
 .icon-block p,
 .text-content-features p {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.67;
-    color: #637282;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #546e7a;
 }
 
 .icon-block {
@@ -957,10 +963,11 @@ Features
 }
 
 
-.img1{
+img1{
     text-align: center;
     object-fit: cover;
-    overflow: hidden;x  
+    overflow: hidden;
+    
 }
 
 #imgs{

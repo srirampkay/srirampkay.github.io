@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="750px" height="545px" viewBox="0 0 750 545" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Artboard Copy 20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard-Copy-20" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFB600" x="0" y="0" width="750" height="545"></rect>
+        <text id="Family-Tree" font-family="VarelaRound-Regular, Varela Round" font-size="42" font-weight="normal" fill="#070707">
+            <tspan x="259.353" y="393">Family Tree</tspan>
+        </text>
+        <g id="Group" transform="translate(304.000000, 214.000000)">
+            <circle id="Oval" fill="#FFFFFF" cx="25" cy="25" r="25"></circle>
+            <path d="M35.5277837,7.80050857 L32.5,18.28296 L43.4056051,14.2977717 C44.1530853,15.8657966 44.5714286,17.6204756 44.5714286,19.4727273 C44.5714286,26.1302689 39.1668659,31.5272727 32.5,31.5272727 C25.8331341,31.5272727 20.4285714,26.1302689 20.4285714,19.4727273 C20.4285714,12.8151857 25.8331341,7.41818182 32.5,7.41818182 C33.5456401,7.41818182 34.5602285,7.5509438 35.5277837,7.80050857 Z" id="Combined-Shape" fill="#000000" transform="translate(32.500000, 19.472727) rotate(50.000000) translate(-32.500000, -19.472727) "></path>
+            <circle id="Oval-Copy" fill="#FFFFFF" cx="118" cy="25" r="25"></circle>
+            <path d="M124.670641,7.80050857 L121.642857,18.28296 L132.548462,14.2977717 C133.295942,15.8657966 133.714286,17.6204756 133.714286,19.4727273 C133.714286,26.1302689 128.309723,31.5272727 121.642857,31.5272727 C114.975991,31.5272727 109.571429,26.1302689 109.571429,19.4727273 C109.571429,12.8151857 114.975991,7.41818182 121.642857,7.41818182 C122.688497,7.41818182 123.703086,7.5509438 124.670641,7.80050857 Z" id="Combined-Shape-Copy" fill="#000000" transform="translate(121.642857, 19.472727) rotate(170.000000) translate(-121.642857, -19.472727) "></path>
+            <path d="M46,89 C55.3478261,103.290765 69.6811594,105.799263 89,96.5254929" id="Path-12" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

@@ -44,7 +44,7 @@ body {
     font-size: 15px;
     line-height: 26px;
     overflow-x: hidden;
-    color: #637282;
+    color: #181b3a;
     letter-spacing: 1.2px;
 }
 
@@ -61,8 +61,9 @@ h6 {
 }
 
 .modal-dialog {
-    width: 1000px;
+    width: 600px;
 }
+
 
 .protitle{
     text-align: center;
@@ -70,7 +71,7 @@ h6 {
 
 .prodesc{
     text-align: center;
-    padding: 0 20px;
+    padding: 0 2px;
 }
 
 h1 span,
@@ -132,6 +133,15 @@ img {
     height: auto;
 }
 
+#prof{
+    max-width: 95%;
+}
+
+#explore1{
+    position: relative;
+    bottom: 10px;
+    background-size: contain;
+}
 
 
 p {
@@ -637,7 +647,7 @@ Hero
 ----------------------------------------*/
 
 .section-hero {
-    height: 90vh;
+    height: 100vh;
     padding-top: 80px;
     position: relative;
     padding-bottom: 80px;
@@ -650,7 +660,7 @@ Hero
 }
 
 .hero-text {
-    margin-top: 10%;
+    margin-top: 16%;
     text-align: center;
 }
 
@@ -670,19 +680,25 @@ Hero
     float: right;
 }
 
+.coming-soon{
+    font-size: 20px;
+    color: #637282;
+}
+
 .colored-text{
     color: #FDC029; 
 }
 
 .hero-text p {
     color: #fff;
-    font-size: 24px;
-    line-height: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 20px;
     
 }
 
 .arrow-down-btn a {
-    font-size: 35px;
+    font-size: 80px;
     
     color: #fff;
 }
@@ -697,7 +713,7 @@ Hero
 
 #explore{
     
-    margin-top: 30%;
+    margin-top: 25%;
     text-align: center;
 }
 
@@ -825,10 +841,10 @@ About
 .text-content p,
 .icon-block p,
 .text-content-features p {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.67;
-    color: #637282;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #546e7a;
 }
 
 .icon-block {
@@ -861,6 +877,11 @@ About
 #about-app {
     position: relative;
     min-height: 630px;
+}
+
+#aboutme{
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .text-content {
@@ -945,6 +966,14 @@ Features
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+}
+
+
+img1{
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+    
 }
 
 #imgs{
@@ -1456,6 +1485,11 @@ Modal
     background: rgba(20, 31, 114, 0.6);
 }
 
+.modal-body{
+    padding-bottom: 0px !important;
+  
+}
+
 .login-modal .modal-dialog {
 
     position: relative;
@@ -1488,6 +1522,7 @@ Modal
 .login-modal .modal-header h3 {
     color: #181b3a;
     font-size: 22px;
+    margin-top: 50px;
     margin-bottom: 5px;
 }
 
@@ -1520,7 +1555,7 @@ Modal
     -o-border-radius: 50%;
     border-radius: 50%;
     cursor: pointer;
-    background-color: #8c6aff;
+    background-color: #FFB600;
 }
 
 .login-modal .form-group input[type="email"],
@@ -1554,7 +1589,7 @@ Modal
     line-height: 19px;
     right: 15px;
     font-size: 19px;
-    color: #8c6aff;
+    color: #FFB600;
 }
 
 .login-modal .modal-footer {

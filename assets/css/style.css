@@ -57,7 +57,7 @@ h6 {
     font-family: 'Lato', sans-serif;
     margin-bottom: 10px;
     
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .modal-dialog {
@@ -67,6 +67,12 @@ h6 {
 
 .protitle{
     text-align: center;
+}
+
+.hero-text {
+    text-align: center;
+    margin-top: 300px; 
+    margin-bottom: 350px;
 }
 
 .prodesc{
@@ -435,6 +441,10 @@ Navigation
     color: #ffffff;
 }
 
+#about-me{
+    margin-top:200px;
+}
+
 #about-text{
     padding-left: 0px !important;
 }
@@ -659,11 +669,13 @@ Hero
 .section-hero-inner .container {
     height: 100%;
 }
-
+/*
 .hero-text {
-    margin-top: 16%;
+    margin-top: 280px;
     text-align: center;
-}
+    margin-bottom: 320px;
+} 
+*/
 
 #mobilesc{
     width:50%;
@@ -695,6 +707,19 @@ Hero
     margin-top: 20px;
     font-size: 30px;
     line-height: 20px;
+    
+}
+
+.arrow{
+    position: relative;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background: no-repeat;
+    background-size: contain;
+    
     
 }
 
@@ -881,13 +906,13 @@ About
 }
 
 #aboutme{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.58;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .text-content {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 /*----------------------------------------

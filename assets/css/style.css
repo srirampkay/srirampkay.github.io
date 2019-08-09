@@ -21,9 +21,11 @@ Fonts
 -----------------------------------------*/
 
 @font-face {
-    font-family: 'Hk_Groteskregular';
+    font-family: 'Hk_Groteskregular','Lato';
     src: url('../fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
-    url('../fonts/hkgrotesk-regular-webfont.woff') format('woff');
+    url('../fonts/hkgrotesk-regular-webfont.woff') format('woff'),
+    url('../fonts/Lato-Regular.ttf') format('ttf'),
+    url('../fonts/Lato-Bold.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -35,7 +37,7 @@ General Styles
 ----------------------------------------*/
 
 body {
-    font-family: 'Hk_Groteskregular', sans-serif;
+    font-family: 'Hk_Groteskregular','Lato-Regular', sans-serif;
     font-size: 15px;
     line-height: 26px;
     overflow-x: hidden;

@@ -25,6 +25,7 @@ Fonts
     src: url('../fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
     url('../fonts/hkgrotesk-regular-webfont.woff') format('woff'),
     url('../fonts/Lato-Regular.ttf') format('ttf'),
+    url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap'),
     url('../fonts/Lato-Bold.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;

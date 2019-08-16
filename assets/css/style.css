@@ -149,6 +149,26 @@ a {
     color:#637282 !important;
 }
 
+h4{
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
+
+h5{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#prob{
+    font-size: 18px;
+
+}
+
+sol{
+    margin-top: 100px;
+    font-size: 24px;
+}
+
 a:hover {
     color: #1968e0;
     text-decoration: none;
@@ -212,6 +232,10 @@ hr.hr {
     position: relative;
     float: right;
     width: 52%;
+}
+
+.storyboard{
+    padding: 0 200px;
 }
 
 .bg-color-1 {

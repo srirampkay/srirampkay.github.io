@@ -58,6 +58,16 @@ body {
     margin-top: 15px !important;
 }
 
+#emai{
+    
+    text-align: center;
+}
+
+#high{
+    font-weight: 600;
+   text-decoration: underline;
+}
+
 .bounce {
     -moz-animation: faderIn 500ms linear, bounce 2s infinite;
     -webkit-animation: faderIn 500ms linear, bounce 2s infinite;

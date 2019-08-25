@@ -459,7 +459,7 @@ Preloader page
 .loader {
     width: 56px;
     height: 56px;
-    border: 8px solid rgba(171, 130, 253, 0.05);
+    border: 8px solid rgba(171, 130, 253, 0.03);
     border-top-color: #FFB600;
     border-radius: 50%;
     position: relative;

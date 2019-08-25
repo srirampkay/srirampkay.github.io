@@ -171,12 +171,17 @@ h5{
 
 #prob{
     font-size: 18px;
+    opacity: 0.6;
 
 }
 
+#stor{
+    padding: 0px !important;
+}
+
 sol{
-    margin-top: 100px;
-    font-size: 24px;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 a:hover {
@@ -440,10 +445,21 @@ Preloader page
     margin-left: -75px;
 }
 
+.iproto{
+    text-align: center;
+}
+
+.iprototype{
+   
+    width: 300px !important;
+}
+
+
+
 .loader {
     width: 56px;
     height: 56px;
-    border: 8px solid rgba(171, 130, 253, 0.25);
+    border: 8px solid rgba(171, 130, 253, 0.05);
     border-top-color: #FFB600;
     border-radius: 50%;
     position: relative;

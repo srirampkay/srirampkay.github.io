@@ -42,7 +42,7 @@ body {
     font-size: 15px;
     line-height: 26px;
     overflow-x: hidden;
-    color: #637282;
+    color: #555;
 }
 
 .head-subtitle{
@@ -116,7 +116,7 @@ h5,
 h6 {
     font-family: 'Lato', sans-serif;
     margin-bottom: 10px;
-    line-height: 48px;
+    
     font-weight: 700;
 }
 
@@ -833,10 +833,17 @@ About
 }
 
 .icon-block {
+    /*
     border-top: 4px solid transparent;
     padding: 5px;
-    text-align: center;
-    border-radius: 10px;
+    text-align: center; */
+    border-radius: 8px;
+    
+}
+
+#work-box:hover img{
+    transform: scale(1.07);
+
 }
 
 .icon-block:hover,
@@ -844,7 +851,7 @@ About
     border-top: 0px solid #FDC029;
     padding: 0px;
     box-shadow: 0 10px 35px 2px rgba(61, 61, 61, .20);
-    border-radius: 15px;
+    border-radius: 8px;
     background-color: white;
 }
 
@@ -947,7 +954,7 @@ Features
 }
 
 #imgs{
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .feature-block img {

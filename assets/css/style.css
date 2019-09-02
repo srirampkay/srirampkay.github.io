@@ -165,7 +165,7 @@ h6 {
 
 a {
     text-decoration: none;
-    transition: all 0.4s ease;
+    /*transition: all 0.4s ease;*/
     color:#637282 !important;
 }
 
@@ -520,8 +520,8 @@ Navigation
     padding: 20px 15px;
     background-color: transparent;
     border-color: transparent;
-    -webkit-transition: all .5s ease .25s;
-    transition: all .5s ease .25s;
+   /* -webkit-transition: all .5s ease .25s;
+    transition: all .5s ease .25s;b*/
 }
 
 .navbar-default .navbar-toggle {

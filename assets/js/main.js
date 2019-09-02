@@ -106,12 +106,6 @@ $('.client-caroussel').owlCarousel({
  --------------------------------------------- */
 
 
-$.scrollUp({
-    scrollText: '<i class="arrow_up"></i>',
-    easingType: 'linear',
-    scrollSpeed: 900,
-    animation: 'fade'
-});
 
 
 /* ---------------------------------------------

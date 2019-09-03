@@ -415,3 +415,37 @@
         padding-bottom: 480px;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    #work {
+      display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile-only{
+        padding-top: 250px;
+        width:350px;
+        margin: 0 auto;
+    }
+    .mobile-only:before {
+        
+        content: "Please view from a web browser.";
+  }
+  .mobile-only1{
+    padding-top: 0px;
+    width:350px;
+    margin: 0 auto;
+}
+.mobile-only1:before {
+        
+    content: "Based on the number of mobile views, I'll make this page mobile responsive as early as possible. ";
+}
+
+
+
+
+}

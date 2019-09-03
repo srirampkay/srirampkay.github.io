@@ -180,6 +180,9 @@ a {
 }
 
 h4{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
     margin-top: 20px;
     margin-bottom: 0px !important;
 }

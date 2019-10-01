@@ -909,7 +909,7 @@ About
 }
 
 #work-box:hover img{
-    transform: scale(1.07);
+    transform: scale(1.03);
 
 }
 
@@ -917,11 +917,19 @@ About
     padding-top: 120px;
 }
 
+.icon-block {
+    border-top: 0px solid #FDC029;
+    padding: 0px;
+    box-shadow: 0 5px 15px 1px rgba(61, 61, 61, .10);
+    border-radius: 8px;
+    background-color: white;
+}
+
 .icon-block:hover,
 .icon-block:focus {
     border-top: 0px solid #FDC029;
     padding: 0px;
-    box-shadow: 0 10px 35px 2px rgba(61, 61, 61, .20);
+    box-shadow: 0 5px 15px 1px rgba(61, 61, 61, .12);
     border-radius: 8px;
     background-color: white;
 }

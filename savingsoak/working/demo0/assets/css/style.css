@@ -388,7 +388,11 @@ Navigation
 
 .navbar-default {
     padding: 20px 15px;
-    background-color: transparent;
+    background: #2667FF;
+    background: -moz-linear-gradient(top, #2667FF 0%, #1337B5 0%, #2667FF 0%, #1337B5 100%);
+    background: -webkit-linear-gradient(top, #2667FF 0%, #1337B5 0%, #2667FF 0%, #1337B5 100%);
+    background: linear-gradient(to bottom, #2667FF 0%, #1337B5 0%, #2667FF 0%, #1337B5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2667FF', endColorstr='#1337B5', GradientType=0);
     border-color: transparent;
     -webkit-transition: all .5s ease .25s;
     transition: all .5s ease .25s;
@@ -578,12 +582,12 @@ Hero
     font-size: 50px;
     margin: 0 0 8px;
     font-weight: 600;
-    color: #fff;
+    color: #1337B5;
     line-height: 60px;
 }
 
 .hero-text p {
-    color: #fff;
+    color: #03091D;
     font-size: 24px;
     line-height: 30px;
     margin-top: 40px;
@@ -592,7 +596,7 @@ Hero
 
 .arrow-down-btn a {
     font-size: 35px;
-    color: #fff;
+    color: #1337B5;
 }
 
 .content-col-inner {

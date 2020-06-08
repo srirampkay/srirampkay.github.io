@@ -154,7 +154,7 @@ hr.hr {
 }
 
 .bg-color-1 {
-    background: #1155FB;
+    background: #D7EBFF;
     
 }
 
@@ -1507,13 +1507,14 @@ Blog
 ----------------------------------------*/
 
 .blog-header.navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #141414;
 }
 
 .blog-header.navbar-default .navbar-nav > li > a:hover,
 .blog-header.navbar-default .navbar-nav li.active a,
 .blog-header.navbar-default .navbar-nav > li > a:focus {
-    color: #eee9;
+    color: #141414;
+    font-weight: 700 !important;
 }
 
 .blog-content,
@@ -1524,7 +1525,7 @@ Blog
 }
 
 .search {
-    background-color: #f4f1ff;
+    background-color: #fefefe;
     border: none;
     border-radius: 60px;
     max-width: 100%;
@@ -1537,7 +1538,7 @@ Blog
 }
 
 .search input {
-    background-color: #f4f1ff;
+    background-color: #fefefe;
     border: none !important;
     outline: none !important;
     padding: 10px 20px;
@@ -1559,14 +1560,14 @@ Blog
     outline: none !important;
     background: none;
     float: right;
-    color: #8968ff;
+    color: #1155FB;
 }
 
 .section-title-inner h1 {
     font-size: 55px;
     margin-bottom: 25px;
     line-height: 65px;
-    color: #fff;
+    color: #141414;
     font-weight: 600;
     text-transform: none;
 }
@@ -1575,7 +1576,7 @@ Blog
     font-size: 18px;
     font-weight: 300;
     line-height: 1.67;
-    color: #fff;
+    color: #545454;
 }
 
 .section-title-blog.section-padd {

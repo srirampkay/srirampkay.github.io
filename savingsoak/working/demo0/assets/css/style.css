@@ -459,11 +459,11 @@ header .navbar-default li.btn-login a:hover,
 .affix .navbar-nav > .active > a,
 .affix .navbar-nav > li > a:hover,
 .affix .navbar-nav > .active:hover > a {
-    color: #eee !important;
+    color: #141414 !important;
 }
 
 .affix .navbar-nav li a {
-    color: #fff;
+    color: #141414;
     line-height: 35px;
 }
 
@@ -473,7 +473,7 @@ header .navbar-default li.btn-login a:hover,
 }
 
 .affix {
-    background: #1155FB;
+    background: #fff;
 }
 
 .affix .dropdown ul li a {

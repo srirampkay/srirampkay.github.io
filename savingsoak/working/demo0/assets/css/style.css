@@ -1580,7 +1580,7 @@ Blog
 }
 
 .section-title-blog.section-padd {
-    padding: 100px 0 100px 0;
+    padding: 120px 0 40px 0 !important;
 }
 
 .post-full-wdith .bottom-info-blog {
@@ -1689,12 +1689,12 @@ Blog
 
 .pagination-page .pagination > li > a,
 .pagination-page .pagination > li > span {
-    color: #1337B5;
+    color: #1155FB;
 }
 
 .pagination-page .pagination > .active > a {
-    background: #1337B5;
-    border-color: #1337B5;
+    background: #1155FB;
+    border-color: #1155FB;
     color: #fff;
 }
 

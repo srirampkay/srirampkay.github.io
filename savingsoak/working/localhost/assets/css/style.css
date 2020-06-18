@@ -37,7 +37,7 @@ Fonts
 General Styles
 ----------------------------------------*/
 body {
-  font-family: 'Hk_Groteskregular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   line-height: 26px;
   overflow-x: hidden;
@@ -45,7 +45,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Hk_Groteskregular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 10px;
   line-height: 24px;
   font-weight: 700;
@@ -123,11 +123,8 @@ hr.hr{
  width: 60%; 
 }
 .bg-color-1{
-        background: #8666ff;
-    background: -moz-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-    background: -webkit-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-    background: linear-gradient(to bottom, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae85fe', endColorstr='#8666ff', GradientType=0);
+        background: #D7EBFF;
+    
 }
 /*-------margins padding--------*/
 
@@ -208,13 +205,13 @@ hr.hr{
 
 .btn{
  padding: 15px 45px;
- border-radius: 100px;
+ border-radius: 5px;
  font-size: 12px;
  border:none;
  font-weight: bold;
  color:#fff;
  text-transform: uppercase;
- box-shadow: 0 10px 35px 2px rgba(61, 61, 61, .30);
+ box-shadow: 0 5px 5px 2px rgba(61, 61, 61, .1);
 }
 .btn:hover, .btn:focus{
   box-shadow: 0 5px 20px 1px rgba(61, 61, 61, .20);
@@ -222,17 +219,14 @@ hr.hr{
 }
 .btn-color, .btn-color:hover, .btn-color:focus, .btn-color:active {
   color:#fff;
-  background: #8666ff;
-  background: -moz-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-  background: -webkit-linear-gradient(top, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
-  background: linear-gradient(to bottom, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae85fe', endColorstr='#8666ff',GradientType=0 ); 
+  background: #092279;
+  
 }
 .btn-white,
 btn-white:hover,
 btn-white:focus,
 btn-white:active{
-  color:#8666ff!important;
+  color:#092279!important;
   background: #fff;
  
 }
@@ -267,8 +261,8 @@ Preloader page
 .loader {
  width: 56px;
  height: 56px;
- border: 8px solid rgba(171, 130, 253, 0.25);
- border-top-color: #8665fe;
+ border: 8px solid #D7EBFF;
+ border-top-color: #092279;
  border-radius: 50%;
  position: relative;
  animation: rotate 1s linear infinite;
@@ -290,7 +284,7 @@ Navigation
 
 }
 .navbar-default .navbar-nav>li>a {
-  color: #fff;
+  color: #092279;
   padding: 5px 5px 4px;
   font-size: 16px;
   line-height: 32px;
@@ -318,7 +312,7 @@ Navigation
 }
 .navbar-default .navbar-nav>.active>a{
   background-color: transparent!important;
-  color: #eee9;
+  color: #021452;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active:hover>a{
   background-color: transparent;
@@ -369,11 +363,8 @@ header .navbar-default li a.btn-login:hover, .navbar-default li a.btn-login:focu
 }
 .affix {
     
-    background: #8666ff;
-    background: -moz-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-    background: -webkit-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-    background: linear-gradient(to bottom, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae85fe', endColorstr='#8666ff', GradientType=0);
+    background: #fff;
+    
   z-index: 999;
   
   border: none;
@@ -384,7 +375,7 @@ header .navbar-default li a.btn-login:hover, .navbar-default li a.btn-login:focu
 .affix .navbar-nav>.active>a,
 .affix .navbar-nav>li>a:hover,
 .affix .navbar-nav>.active:hover>a {
-  color:#eee!important;  
+  color:#092279!important;  
 }
 .affix li.connect-links a{
   color: #fff;
@@ -456,9 +447,9 @@ color:#8666ff;
 Hero
 ----------------------------------------*/
 .section-hero{
-    height: 100vh;
-    -webkit-clip-path: ellipse(100% 80% at 75% 20%);
-    clip-path: ellipse(100% 80% at 70% 20%);
+    height: 80vh;
+    /*-webkit-clip-path: ellipse(100% 80% at 75% 20%);
+    clip-path: ellipse(100% 80% at 70% 20%);*/
     padding-top: 80px;
     position: relative;
     /* padding-bottom: 80px; */
@@ -475,27 +466,28 @@ Hero
   height: 100%;
 }
 .hero-text{
-  padding: 60px 0 35px 0;
+  padding: 100px 0 35px 0;
 }
 .section-hero-content .hero-text h1{
   font-size: 50px;
   margin: 0 0 8px;
-  font-weight: 600;
-  color: #fff;
-  line-height: 60px;
+  font-weight: 700;
+  color: #141414;
+  line-height: 140%;
 
 }
 .hero-text p{
-  color: #fff;
-  font-size: 24px;
+  color: #021452;
+  opacity: 0.5;
+  font-size: 20px;
   line-height: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
 .arrow-down-btn a{
   font-size: 35px;
-  color:#fff;
+  color:#092279;
 }
 .content-col-inner{
   position: relative;
@@ -552,9 +544,9 @@ About
 .about-text h2,.text-content h2{
   font-size: 42px;
   margin-bottom: 25px;
-  line-height: 45px;
+  line-height: 140%;
   margin-top: 0;
-  color:#181b3a;
+  color:#141414;
   font-weight: 600;
 }
 .about-text p, .text-content p, .icon-block  p{
@@ -576,7 +568,7 @@ About
 .icon-block i{
   font-size: 40px;
   line-height: 45px;
-  color:#8767ff;
+  color:#092279;
 }
 
 #about-app{
@@ -588,7 +580,7 @@ About
 Features
 ----------------------------------------*/
 #features, #pricing, #features-tabs{
-   background-color: #f9f7ff;
+   background-color: #D7EBFF;
 }
 .feature-col-left{
  position: relative;
@@ -633,9 +625,9 @@ Features
   position: absolute;
   left:-8px;
   top:10px;
-  color:#8967ff;
+  color:#092279;
   display :inline-block;
-  background-color:#e1d3ff; 
+  background-color:#fff; 
   width: 18px;
   line-height:18px;
   height: 18px;
@@ -673,7 +665,7 @@ Features
 }
 .feature-block a{
  font-size: 20px;
- color: #8767ff; 
+ color: #092279; 
 }
 .feature-block a i{
   position: relative;
@@ -710,7 +702,7 @@ position: relative;
 .tab-box .nav-tabs>li.active>a:hover,
 .tab-box .nav-tabs>li.active>a:active{
   background-color: transparent;
-  border-bottom: 3px solid #8666ff; 
+  border-bottom: 3px solid #092279; 
 border-left:none;
     border-right: none;
     border-top:none;
@@ -724,8 +716,8 @@ border-left:none;
 }
 
 .tab-box  .nav-tabs>li.active>a {
-    color: #8666ff;
-       border-bottom: 3px solid #8666ff; 
+    color: #092279;
+       border-bottom: 3px solid #092279; 
 }
 .tab-box .tab-content{
     padding-top: 40px; 
@@ -745,7 +737,7 @@ border-left:none;
 }
 .tab-box .tab-content a{
       font-size: 16px;
-    color: #8767ff;  
+    color: #092279;  
 }
 .tab-box .tab-content a i{
      position: relative;
@@ -779,7 +771,7 @@ Testmonials
 .testimonial-caroussel.owl-theme .owl-dots .owl-dot.active span{
   width: 15px;
   height: 15px;
-  background: #906dfe;
+  background: #092279;
   margin: 3px 7px;
 }
 
@@ -847,14 +839,14 @@ Pricing
   font-size: 19px;
   letter-spacing: -0.9px;
   text-align: center;
-  color: #906dfe;
+  color: #092279;
   top: -1em;
 }
 .content-plan strong{
   font-size: 65px;
   letter-spacing: -2px;
   text-align: center;
-  color: #906dfe;
+  color: #092279;
 }
 .content-plan sub{
   font-size: 18px;
@@ -873,7 +865,7 @@ Pricing
 .table-price .active .table-inner{
  border: none;
  box-shadow: 0 10px 35px 2px rgba(61, 61, 61, .20);
- border-top: 4px solid #906dfe;
+ border-top: 4px solid #092279;
 }
 
 
@@ -909,11 +901,8 @@ Downlaod
   padding: 13px 30px 13px 45px;
   margin-right: 20px;
   color:#fff;
-  background: #8666ff;
-  background: -moz-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-  background: -webkit-linear-gradient(top, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
-  background: linear-gradient(to bottom, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae85fe', endColorstr='#8666ff',GradientType=0 );
+  background: #092279;
+  
 }
 .actions-btn .btn span{
   display: block;
@@ -949,11 +938,11 @@ Downlaod
 Footer
 ----------------------------------------*/
 .footer-warpper {
-    padding-top: 50px;
+    padding-top: 1px;
 }
 .footer {
     position: relative;
-     background:#2e303c;
+     background:#D7EBFF;
 }
 .sep-footer img{
     width:100%;
@@ -966,7 +955,7 @@ Footer
  
 .footer-top-content h1{
   font-size: 50px;
-  color: #fff;
+  color: #092279;
   line-height: 60px;
 
 }
@@ -1003,7 +992,7 @@ Footer
 .list-social a{
   background-color: #fff;
   width:40px;
-  color:#8c6aff;
+  color:#092279;
   line-height: 40px;
   font-size: 16px;
   padding: 0;
@@ -1042,25 +1031,16 @@ Footer
  -moz-border-radius: 25px;
  -wbekit-border-radius: 25px;
  color:#fff;
- background: #8666ff;
- background: -moz-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
- background: -webkit-linear-gradient(top, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
- background: linear-gradient(to bottom, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae85fe', endColorstr='#8666ff',GradientType=0 ); 
+ background: #092279;
+ 
 }
 .btn-subscribe:hover,.btn-subscribe:focus, .btn-subscribe:active{
-  background: #8666ff;
-  background: -moz-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-  background: -webkit-linear-gradient(top, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
-  background: linear-gradient(to bottom, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae85fe', endColorstr='#8666ff',GradientType=0 ); 
+  background: #092279;
+  
 }
 #scrollUp{
-  background: #8666ff;
-  background: -moz-linear-gradient(top, #ae85fe 0%, #8666ff 0%, #ae85fe 0%, #8666ff 100%);
-  background: -webkit-linear-gradient(top, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
-  background: linear-gradient(to bottom, #ae85fe 0%,#8666ff 0%,#ae85fe 0%,#8666ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae85fe', endColorstr='#8666ff',GradientType=0 ); 
+  background: #092279;
+  
   border-radius: 100%;
   bottom: 30px;
   color: #ffffff;
@@ -1074,9 +1054,9 @@ Footer
   width: 45px;
 }
 .footer-bottom-content{
-  padding-top: 60px;
+  padding-top: 40px;
   margin-bottom: 30px;
-  color: rgba(255, 255, 255, 0.4);
+  color: #092279;
 
 }
 .text-footer{
@@ -1090,7 +1070,7 @@ Footer
 }
 .footer-bottom-content h5{
   position: relative;
-  color: #fff;
+  color: #092279;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -1106,7 +1086,7 @@ Footer
 .footer-bottom-content  .list-menu li a {
   position: relative;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.4);
+  color: #092279;
   font-weight: 400;
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;

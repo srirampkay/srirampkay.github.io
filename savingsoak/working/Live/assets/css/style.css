@@ -339,8 +339,8 @@ Preloader page
 .loader {
     width: 56px;
     height: 56px;
-    border: 8px solid rgba(171, 130, 253, 0.25);
-    border-top-color: #1337B5;
+    border: 8px solid #D7EBFF;
+    border-top-color: #1155FB;
     border-radius: 50%;
     position: relative;
     animation: rotate 1s linear infinite;
@@ -412,7 +412,7 @@ Navigation
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > .active:hover > a {
     background-color: transparent;
-    color: white;
+    color: #141414;
 }
 
 .navbar-default .navbar-collapse .navbar-nav > li:first-child {
@@ -567,7 +567,7 @@ Hero
 }
 
 .hero-text {
-    padding: 75px 0 75px 0;
+    padding: 105px 0 55px 0;
 }
 
 .section-hero-content .hero-text h1 {

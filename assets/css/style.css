@@ -38,7 +38,16 @@ body {
     font-size: 15px;
     line-height: 26px;
     overflow-x: hidden;
-    color: #10141F;
+    color: #10141F !important;
+
+    overflow: hidden;
+  background: hsla(0, 5%, 5%, 1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to right top, hsla(0, 5%, 15%, 0.5), hsla(0, 5%, 5%, 1));
+  
+  background-image: -moz-linear-gradient(to right top, hsla(0, 5%, 15%, 0.5), hsla(0, 5%, 5%, 1));
+    
 }
 
 h1,
@@ -48,8 +57,8 @@ h4,
 h5,
 h6 {
     font-family: 'Lato', sans-serif;
-    margin-bottom: 10px;
-    line-height: 24px;
+    margin-bottom: 0px;
+    line-height: 150%;
     
 }
 
@@ -306,13 +315,13 @@ hr.hr {
 }
 
 .btn-link{
-    font-size: 18px;
+    font-size: 14px;
     color: white;
 }
 
 
 .btn-link:hover{
-color: tomato;
+color: #3BE8B0;
 font-weight: 700;
 }
 
@@ -376,12 +385,22 @@ Navigation
     margin-left: 0 !important;
     padding: 0 30px 0 0;
 
+    
+    font-size: 18px;
+    line-height: 18px;
+
+
+}
+
+#logo{
+    font-size: 20px;
+    line-height: 48px;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
     padding: 5px 5px 4px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
     font-weight: 300;
     font-family: 'Hk_Groteskregular', sans-serif;
@@ -567,7 +586,7 @@ Hero
 ----------------------------------------*/
 
 .section-hero {
-    height: 80vh;
+    height: 100vh;
     padding-top: 80px;
     position: relative;
     padding-bottom: 80px;
@@ -575,13 +594,30 @@ Hero
 }
 
 
+
+
+
+  .title {
+    font-size: 10vw;
+    color: white;
+  }
+  
+  canvas {
+    width: 100%;
+  }
+
 .section-hero-inner .container {
     height: 100%;
 }
 
 .hero-text {
-    padding: 225px 0 75px 0;
-    vertical-align: middle;
+    /* padding: 225px 0 75px 0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .hero-text1 {
@@ -592,7 +628,7 @@ Hero
 .hero-text1 p {
     font-size: 20px;
     line-height: 150%;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
     letter-spacing: 0.07rem;
 }
@@ -607,11 +643,12 @@ Hero
 
 .hero-text p {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 150%;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     letter-spacing: 0.07rem;
+    opacity: 0.8;
 }
 
 .arrow-down-btn a {

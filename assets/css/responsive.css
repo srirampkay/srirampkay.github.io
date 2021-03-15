@@ -211,9 +211,7 @@
     .hero-text {
         padding: 95px 0 75px 30px;
     }
-    .section-hero {
-        height: 100%;
-    }
+    
     header .navbar-default li.connect-links {
         margin-left: 30px;
     }
@@ -235,9 +233,7 @@
     .icon-block{
             padding: 20px;
     }
-    .section-hero {
-        height: 100%;
-    }
+    
     .icon-block h3{
      font-size: 15px;
     margin-bottom: 5px;   
@@ -331,13 +327,13 @@
     
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
    
     .hero-text {
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 30%;
+        width: 28%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
@@ -345,7 +341,7 @@
 
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen (min-width: 1025px) and and (max-width: 1440px) {
     .footer {
         background: none;
         background-color: #2e303c;
@@ -356,7 +352,39 @@
     .subscribe-form .form-control {
         width: 40%;
     }
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 37%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 }
+
+@media only screen and (max-width: 1024px) {
+    .footer {
+        background: none;
+        background-color: #2e303c;
+    }
+    .footer .footer-warpper {
+        padding-top: 0;
+    }
+    .subscribe-form .form-control {
+        width: 40%;
+    }
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+
+
 
 
 /* Landscape*/

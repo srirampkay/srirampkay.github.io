@@ -28,6 +28,11 @@ Fonts
 
 }
 
+#hero-copy{
+    font-size: 56px;
+    font-weight: 900;
+}
+
 
 /*----------------------------------------
 General Styles
@@ -64,7 +69,7 @@ h5,
 h6 {
     font-family: 'Lato', sans-serif;
     margin-bottom: 0px;
-    line-height: 150%;
+    line-height: 120%;
     
 }
 
@@ -616,15 +621,19 @@ Hero
     height: 100%;
 }
 
-.hero-text {
-    /* padding: 225px 0 75px 0; */
+
+#hero-copy {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.vertical-center {
+    margin: 0;
     position: absolute;
     top: 50%;
-    left: 50%;
-    width: 44%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 
 .hero-text1 {
     padding: 95px 0 75px 0;
@@ -649,9 +658,9 @@ Hero
 
 .hero-text p {
     color: hsl(0deg 0% 20%);
-    font-size: 16px;
+    font-size: 20px;
     line-height: 150%;
-    margin-top: 10px;
+    
     margin-bottom: 20px;
     letter-spacing: 0.07rem;
     opacity: 0.8;

@@ -21,8 +21,8 @@ Fonts
 -----------------------------------------*/
 
 @font-face {
-    font-family: 'Lato', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap') format('woff2'),
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap') format('woff2'),
     font-weight: normal;
     font-style: normal;
 
@@ -39,14 +39,14 @@ General Styles
 ----------------------------------------*/
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: 26px;
     overflow-x: hidden;
-    color: #f2f2f2 !important;
+    color: #000 !important;
 
     overflow: hidden;
-  background: hsla(0, 5%, 5%, 1);
+  
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(to right top, hsla(0, 5%, 15%, 0.5), hsla(0, 5%, 5%, 1));
@@ -67,9 +67,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Serif', serif;
     margin-bottom: 0px;
     line-height: 120%;
+   
     
 }
 
@@ -83,7 +84,7 @@ h6 span {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 900;
 }
 
@@ -108,6 +109,7 @@ h6 {
 }
 
 a {
+    color: white;
     text-decoration: none;
     transition: all 0.4s ease;
 }
@@ -171,7 +173,7 @@ hr.hr {
     width: 60%;
 }
 
-.bg-color-1 {
+.bg-color-4 {
     background: #f2f2f2;
     background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 0%, #f2f2f2 0%, #f2f2f2 100%);
     background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 0%, #f2f2f2 0%, #f2f2f2 100%);
@@ -601,7 +603,7 @@ Hero
     padding-top: 80px;
     position: relative;
     padding-bottom: 80px;
-    color: hsl(0deg 0% 20%);
+    color: #fff;
 }
 
 
@@ -618,7 +620,7 @@ Hero
   }
 
 .section-hero-inner .container {
-    height: 100%;
+    width: 88%;
 }
 
 
@@ -657,15 +659,19 @@ Hero
 }
 
 .hero-text p {
-    color: hsl(0deg 0% 20%);
-    font-size: 20px;
+    color: fff;
+    font-size: 18px;
     line-height: 150%;
     
     margin-bottom: 20px;
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.05rem;
     opacity: 0.8;
 }
 
+
+.hero-text{
+    width: 21%;
+}
 .arrow-down-btn a {
     font-size: 35px;
     color: #fff;

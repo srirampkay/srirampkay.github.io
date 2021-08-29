@@ -22,6 +22,12 @@ body {
   background: #1C1F29;
 }
 
+#home-right {
+  margin: 170px auto;
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 html { 
   background: url(images/Bright.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -115,7 +121,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #1C1F29;
 }
 .fh5co-nav .top-menu {
-  padding: 80px 0 2px 0;
+  padding: 80px 0 32px 0;
 }
 .fh5co-nav #fh5co-logo {
   font-size: 24px;
@@ -470,6 +476,29 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 @media screen and (max-width: 480px) {
+
+  #fh5co-portfolio{
+    padding: 0em !important;
+  }
+
+  .col-xs-12 {
+    margin: 16px 0 24px -15px !important;
+  }
+
+  #home-right {
+  margin: 170px auto;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+  .fh5co-nav .top-menu {
+    padding: 40px 0 24px 0;
+  }
+
+  .fh5co-portfolio {
+    margin-bottom: 16px !important;
+}
+
   #fh5co-features .feature-left .feature-copy {
     width: 70%;
   }
@@ -478,6 +507,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
   font-weight: 400;
 }
+
 #fh5co-features .feature-left p {
   font-size: 15px;
 }
@@ -1222,103 +1252,6 @@ input[type="text"] {
   outline: none;
 }
 
-.fh5co-nav-toggle {
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
-  text-decoration: none;
-  top: 25px !important;
-}
-.fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #444;
-}
-.fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
-  outline: none;
-  border-bottom: none !important;
-}
-.fh5co-nav-toggle i {
-  position: relative;
-  display: inline-block;
-  width: 25px;
-  height: 2px;
-  color: #252525;
-  font: bold 14px/.4 Helvetica;
-  text-transform: uppercase;
-  text-indent: -55px;
-  background: #252525;
-  transition: all .2s ease-out;
-}
-.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
-  content: '';
-  width: 25px;
-  height: 2px;
-  background: #252525;
-  position: absolute;
-  left: 0;
-  transition: all .2s ease-out;
-}
-.fh5co-nav-toggle.fh5co-nav-white > i {
-  color: #fff;
-  background: #000;
-}
-.fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #000;
-}
-
-.fh5co-nav-toggle i::before {
-  top: -7px;
-}
-
-.fh5co-nav-toggle i::after {
-  bottom: -7px;
-}
-
-.fh5co-nav-toggle:hover i::before {
-  top: -10px;
-}
-
-.fh5co-nav-toggle:hover i::after {
-  bottom: -10px;
-}
-
-.fh5co-nav-toggle.active i {
-  background: transparent;
-}
-
-.fh5co-nav-toggle.active i::before {
-  top: 0;
-  -webkit-transform: rotateZ(45deg);
-  -moz-transform: rotateZ(45deg);
-  -ms-transform: rotateZ(45deg);
-  -o-transform: rotateZ(45deg);
-  transform: rotateZ(45deg);
-  background: #fff;
-}
-
-.fh5co-nav-toggle.active i::after {
-  bottom: 0;
-  -webkit-transform: rotateZ(-45deg);
-  -moz-transform: rotateZ(-45deg);
-  -ms-transform: rotateZ(-45deg);
-  -o-transform: rotateZ(-45deg);
-  transform: rotateZ(-45deg);
-  background: #fff;
-}
-
-.fh5co-nav-toggle {
-  position: absolute;
-  right: 0px;
-  top: 65px;
-  z-index: 21;
-  padding: 6px 0 0 0;
-  display: block;
-  margin: 0 auto;
-  display: none;
-  height: 44px;
-  width: 44px;
-  z-index: 2001;
-  border-bottom: none !important;
-}
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;

@@ -679,6 +679,7 @@ Primary use: MultiPurpose Template
     .wide-heading {
         font-size: 24px;
         letter-spacing: 2px;
+        text-align: center !important;
     }    
     .section-heading,
     .sub-heading{

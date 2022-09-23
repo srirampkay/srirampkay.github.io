@@ -611,13 +611,13 @@ Primary use: MultiPurpose Template
         font-size: 28px;
     }
     .hs-line-8 {
-        font-size: 12px;
+        font-size: 5vw;
     } 
     .hs-line-9 {
         font-size: 42px;
     } 
     .hs-line-11 {
-        font-size: 20px;
+        font-size: 10vw;
         letter-spacing: 0.2em;
     } 
     .hs-line-12 {
